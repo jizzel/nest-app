@@ -22,6 +22,9 @@ let AppController = class AppController {
     getHome() {
         return this.appService.getHome();
     }
+    getAbout() {
+        return this.appService.getAbout();
+    }
 };
 exports.AppController = AppController;
 __decorate([
@@ -36,6 +39,12 @@ __decorate([
     __metadata("design:paramtypes", []),
     __metadata("design:returntype", String)
 ], AppController.prototype, "getHome", null);
+__decorate([
+    (0, common_1.Get)('/about'),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", []),
+    __metadata("design:returntype", String)
+], AppController.prototype, "getAbout", null);
 exports.AppController = AppController = __decorate([
     (0, common_1.Controller)(),
     __metadata("design:paramtypes", [app_service_1.AppService])

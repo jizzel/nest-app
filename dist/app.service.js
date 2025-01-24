@@ -15,6 +15,9 @@ let AppService = class AppService {
     getHome() {
         return 'You are home!';
     }
+    getAbout() {
+        return 'This is the about page!';
+    }
 };
 exports.AppService = AppService;
 exports.AppService = AppService = __decorate([
