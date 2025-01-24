@@ -9,4 +9,8 @@ export class AppService {
   getHome(): string {
     return 'You are home!';
   }
+
+  getAbout(): string {
+    return 'This is the about page!';
+  }
 }

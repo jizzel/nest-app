@@ -14,4 +14,9 @@ export class AppController {
   getHome(): string {
     return this.appService.getHome();
   }
+
+  @Get('/about')
+  getAbout(): string {
+    return this.appService.getAbout();
+  }
 }
